@@ -1,8 +1,9 @@
 import React from 'react'
 import Apple from "../svg/Apple.svg";
 import Playstore from "../svg/Playstore.svg";
-import "./ctasection.css";
 import PhoneMock from './PhoneMock';
+import "./ctaSection.css";
+
 
 const CTASection = () => {
   return (
