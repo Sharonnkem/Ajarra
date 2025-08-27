@@ -1,0 +1,94 @@
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;            
+  gap: 36px;                      
+  padding: 28px 8rem;
+  background: #F9F4F1;
+}
+
+.dot-icon {
+    display: flex;
+}
+
+.together {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3rem; 
+}
+
+.plan {
+  position: relative; 
+  display: inline-block;
+  max-width: 320px;    
+}
+
+.dot-icon span {
+    background: #F0D0B3;
+    border-radius: 50%;
+    border: 1px solid #F0D0B3;
+    padding:  1px 8px;
+    max-height: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.pat1 {
+  position: absolute;
+  bottom: 50px;
+  right: -50px;
+  width: 150px;   
+  z-index: 1;     
+}
+
+.pat2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;   
+  z-index: 1;     
+}
+
+.photo {
+  display: block;
+  width: 100%;         
+  height: auto;
+  position: relative;
+  z-index: 2;          
+  margin-top: -20px; 
+  border: 1px solid #4B1B13;
+  border-radius: 45%;
+  padding: 30px;
+}
+
+
+.pat3 {
+  position: absolute;
+  bottom: 50px;
+  right: -50px;
+  width: 150px;   
+  z-index: 1;     
+}
+
+.pat4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;   
+  z-index: 1;     
+}
+
+.vendor-btn {
+    margin: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+.works {                      
+  padding: 28px 2rem;
+}
+ }

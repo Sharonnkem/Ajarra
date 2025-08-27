@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  font-family: 'Mulish', sans-serif;
+  max-width: 2000px;
+}
+
+h1, h2, h3,h5 {
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+}
