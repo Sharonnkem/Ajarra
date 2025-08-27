@@ -4,7 +4,6 @@ import image1 from "../images/image1.png";
 import image2 from "../images/image2.png";
 import "./works.css";
 
-
 const Works = () => {
   return (
     <section className="works">
