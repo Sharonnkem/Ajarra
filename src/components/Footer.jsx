@@ -9,7 +9,6 @@ import twitter from "../svg/twitter.svg";
 import "./footer.css";
 
 
-
 const Footer = () => {
     const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
